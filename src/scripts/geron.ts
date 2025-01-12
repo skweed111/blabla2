@@ -488,4 +488,7 @@
 // let person: null = null;
 // console.log(person);
 
-export const hello = "салам амаллейкум";
+// export const hello = "салам амаллейкум";
+
+//setTimeout -функция которая позволяет задержать
+//выполнение кода на определенное время пример ниже:

@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("салам амаллейкум"),console.log("файл start")})();
+setTimeout((()=>{console.log("прошло 2 секунды")}),2e3),console.log("привет");
