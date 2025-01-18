@@ -1,13 +1,9 @@
-// import * as geron from "./src/scripts/geron";
-// console.log(geron.hello);
+import { Order } from "./src/models/Order";
 
-// import start from "./src/scripts/start";
-// console.log(start);
+const user = "Виктор Марш";
+const address = "г.хуйпойми,ул.тожехуйпойми,дом 2 закрыли";
+const sum = 30000;
 
-// import { result } from "./src/types/types";
-// console.log(result);
-setTimeout(() => {
-  console.log("прошло 2 секунды");
-}, 2000);
-
-console.log("привет");
+const order = new Order({ user, address, sum });
+order.newAddress = "г.мск,ул.хуй и два соска";
+console.log(order.getInfoOrder());
